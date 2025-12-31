@@ -1,0 +1,73 @@
+############################
+# Compilação / Build
+############################
+target/
+build/
+out/
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Arquivos temporários
+############################
+*.tmp
+*.swp
+*.bak
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+############################
+# VS Code (caso alguém use)
+############################
+.vscode/
+
+############################
+# Eclipse (colaboradores… acontecem)
+############################
+.project
+.classpath
+.settings/
+
+############################
+# Maven
+############################
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+############################
+# Gradle
+############################
+.gradle/
+gradle-app.setting
+
+############################
+# Spring Boot
+############################
+application-*.yml
+application-*.properties
+
+############################
+# Sistema Operacional
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Java
+############################
+*.class
+hs_err_pid*
+
+############################
+# Docker (opcional)
+############################
+.env
