@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ############################
 # Compilação / Build
 ############################
@@ -71,3 +72,6 @@ hs_err_pid*
 # Docker (opcional)
 ############################
 .env
+=======
+**/mysql_local_data/
+>>>>>>> 05-preparando-aplicacoes-para-a-nuvem-com-docker

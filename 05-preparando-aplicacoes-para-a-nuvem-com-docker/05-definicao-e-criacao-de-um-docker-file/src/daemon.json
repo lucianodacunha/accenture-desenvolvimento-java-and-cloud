@@ -1,0 +1,9 @@
+// daemon.json
+// Configuração para permitir registros inseguros
+// Adicione o seguinte conteúdo ao arquivo daemon.json
+// localizado em /etc/docker/daemon.json ou C:\ProgramData\docker\config\daemon.json
+// myregistry.local:5000 deve ser substituído pelo endereço do seu registro inseguro
+// Certifique-se de reiniciar o serviço Docker após fazer alterações neste arquivo
+// systemctl restart docker (Linux) ou reinicie o serviço Docker no Windows
+// Exemplo de conteúdo do daemon.json:
+{"insecure-registries": ["myregistry.local:5000"]}
